@@ -12,9 +12,9 @@ The core of the project was the development of a specific manually annotated dat
 
 [CatastroBERT](https://huggingface.co/epfl-dhlab/CatastroBERT) and its experimental multilingual variant, [CatastroBERT-M](https://huggingface.co/epfl-dhlab/CatastroBERT), are now accessible for future research on HuggingFace. While CatastroBERT-M shows promise, it may require further tuning to optimize its performance across languages, reflecting our commitment to continually enhancing these tools’ capabilities. This project provides valuable tools and insights for ongoing and future research in the field.
 
-
-
 ## Example usage
+
+See the [notebook](example.ipynb) for a detailed example of how to use CatastroBERT on larger datasets.
 
 ### Prerequisites
 
