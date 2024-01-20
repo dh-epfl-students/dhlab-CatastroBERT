@@ -12,9 +12,30 @@ The core of the project was the development of a specific manually annotated dat
 
 [CatastroBERT](https://huggingface.co/epfl-dhlab/CatastroBERT) and its experimental multilingual variant, [CatastroBERT-M](https://huggingface.co/epfl-dhlab/CatastroBERT), are now accessible for future research on HuggingFace. While CatastroBERT-M shows promise, it may require further tuning to optimize its performance across languages, reflecting our commitment to continually enhancing these tools’ capabilities. This project provides valuable tools and insights for ongoing and future research in the field.
 
-## GOALS
+
 
 ## Example usage
+
+### Prerequisites
+
+Before you begin, make sure you have Python installed on your system. This script was tested with Python 3.8 and above.
+
+### Environment Setup
+
+It is recommended to use a virtual environment for Python projects to manage dependencies effectively. You can set up a virtual environment as follows:
+
+```bash
+python -m venv myenv
+source myenv/bin/activate  # On Windows use `myenv\Scripts\activate`
+```
+
+then install the required packages with the following command:
+
+```bash
+pip install transformers torch
+```
+
+### Usage
 
 ```python
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
