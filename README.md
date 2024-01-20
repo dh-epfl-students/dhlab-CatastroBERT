@@ -74,6 +74,6 @@ def predict(text):
     return probs[0][0]
 
 #example usage 
-text = "Un violent ouragan du sud-ouest est passé cette nuit sur Lausanne."
+text = "Un violent ouragan est passé cette nuit sur Lausanne."
 print(f"Prediction: {predict(text)}")
 ```
